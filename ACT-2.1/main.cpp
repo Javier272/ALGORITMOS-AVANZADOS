@@ -11,6 +11,7 @@ int main(){
     string fileName="prueba.txt";
     int n=8; //n multiplos de 4, 16<=n<=64
 
+    
     ifstream file(fileName, ios::binary);//abrir el archivo en binario para detectar todo tipo de caracteres
     if (!file){
         cerr << "No se puede abrir el archivo "<<fileName<<endl;
